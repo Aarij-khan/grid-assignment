@@ -1,0 +1,308 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    /* width: 100%; */
+    min-width: 1000px;
+
+}
+#left{
+    display: flex;
+    font-size: 22px;
+    padding: 20px;
+
+}
+#left i{
+    padding: 4px 10px;
+}
+.list>li>i{
+    font-size: 22px;
+
+}
+#list2{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    gap: 50px;
+    font-size: 22px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 800px;
+    margin-left: 200px;
+
+}
+.content h3{
+    font-size: 30px;
+
+}
+#just{
+    display: flex;
+    justify-content: center;
+    line-height:50px;
+    font-size: 30px;
+}
+#img2{
+    margin-left: 5px;
+
+}
+#img3{
+    margin-left: 15px;
+
+}
+#img4{
+    margin-left: 15px;
+    width: 350px;
+    height: 360px;
+
+}
+#img8{
+    margin-left:15px;
+    width: 350px;
+    height: 360px;
+
+}
+#img12{
+    margin-left:15px;
+    width: 350px;
+    height: 360px;
+
+}
+#img16{
+    margin-left:15px;
+    width: 350px;
+    height: 360px;
+
+}
+#img20{
+    margin-left:15px;
+    width: 350px;
+    height: 360px;
+
+}
+#two{
+    position: relative;
+    left: 460px;
+}
+
+
+
+
+
+
+@media screen and (max-width:770px) {
+    .list{
+        display: none;
+    }
+    
+    #two{
+        position: relative;
+        left: 300px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:900px) {
+    .container{
+        position: relative;
+        left: 120px;
+    }
+    .content{
+        position: relative;
+        right:40px ;
+    }
+    
+    #img4{
+        width: 322px;
+        height: 360px;
+        margin-left: 5px;
+        
+        
+    }
+    #img3{
+        width: 370px;
+        height: 360px;
+        margin-left: -2px;
+        
+        
+    }
+    #img16{
+        width: 320px;
+        height: 360px;
+        margin-left: -3px;
+        
+    }
+    #img18{
+        width: 315px;
+        height: 360px;
+        
+    }
+    #img15{
+        width: 360px;
+        height: 360px;
+        
+        
+    }
+    #img20{
+        width: 303px;
+        height: 360px;
+        
+        
+    }
+    #img8{
+        width: 306px;
+        height: 360px;
+        
+    }
+    #img6{
+        width: 320px;
+        height: 360px;
+        
+    }
+    
+    #img2{
+        width: 324px;
+        height: 360px;
+        
+        
+    }
+    #img12{
+        width: 305px;
+        height: 360px;
+        
+        
+    }
+    #img10{
+        width: 320px;
+        height: 360px;
+        
+        
+    }
+    
+    #img17{
+        
+        width: 360px;
+        height: 360px;
+        
+        
+    }
+    #img14{
+        
+        width: 320px;
+        height: 360px;
+        
+        
+    }
+    
+    
+    
+}
+@media screen and (max-width:700px) {
+    #img2{
+        width: 540px;
+        margin-left: -1px;
+    }
+    #img3{
+        width: 540px;
+    }
+    #img4{
+        width: 540px;
+        margin-left: -1px;
+    }
+    #img5{
+        width: 540px;
+    }
+    #img6{
+        width: 540px;
+    }
+    #img7{
+        width: 540px;
+    }
+    #img8{
+        width: 540px;
+        margin-left: -5px;
+        
+    }
+    
+    #img9{
+        width: 540px;
+        
+    }
+    #img10{
+        width: 540px;
+        
+    }
+    #img11{
+        width: 540px;
+        
+    }
+    #img12{
+        width: 540px;
+        margin-left: -3px;
+        
+    }
+    #img13{
+        width: 540px;
+        
+    }
+    #img14{
+        width: 540px;
+        
+    }
+    #img15{
+        width: 540px;
+        
+    }
+    #img16{
+        width: 540px;
+        
+    }
+    #img17{
+        width: 540px;
+        
+    }
+    #img18{
+        width: 540px;
+        
+    }
+    #img19  {
+        width: 540px;
+        
+    }
+    #img20{
+        width: 540px;
+        margin-left: -3px;
+        
+    }
+    .container{
+        position: relative;
+        left: 220px;
+    }
+    .content{
+        position: relative;
+        right: 90px;
+        
+    }
+    #two{
+        position: relative;
+        left: 220px;
+    }
+    
+}
